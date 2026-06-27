@@ -10,35 +10,37 @@ This project develops a reproducible machine learning benchmark for early academ
 
 ## Repository Structure
 
+```text
 student-success-ai/
-- README.md
-- requirements.txt
-- .gitignore
-- LICENSE
-- data/
-  - raw/
-  - processed/
-- notebooks/
-  - 01_data_loading_colab.ipynb
-  - 02_eda_colab.ipynb
-  - 03_preprocessing_colab.ipynb
-  - 04_model_training_colab.ipynb
-  - 05_model_comparison_colab.ipynb
-  - 06_explainability_colab.ipynb
-- src/
-  - data_loader.py
-  - preprocessing.py
-  - train_models.py
-  - evaluate_models.py
-  - explainability.py
-- reports/
-  - figures/
-  - tables/
-  - final/
-- docs/
-  - model_card.md
-  - data_card.md
-  - reproducibility.md
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── LICENSE
+├── data/
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+│   ├── 01_data_loading_colab.ipynb
+│   ├── 02_eda_colab.ipynb
+│   ├── 03_preprocessing_colab.ipynb
+│   ├── 04_model_training_colab.ipynb
+│   ├── 05_model_comparison_colab.ipynb
+│   └── 06_explainability_colab.ipynb
+├── src/
+│   ├── data_loader.py
+│   ├── preprocessing.py
+│   ├── train_models.py
+│   ├── evaluate_models.py
+│   └── explainability.py
+├── reports/
+│   ├── figures/
+│   ├── tables/
+│   └── final/
+└── docs/
+    ├── model_card.md
+    ├── data_card.md
+    └── reproducibility.md
+```
 
 ## Main Goals
 

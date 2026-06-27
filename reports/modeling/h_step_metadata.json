@@ -4,7 +4,7 @@
     "project_name": "Student Success AI",
     "dataset_path": "/content/student-success-ai/data/processed/student_ml_clean.csv",
     "dataset_type": "strict_clean_before_encoding",
-    "created_at": "2026-06-27 19:59:31",
+    "created_at": "2026-06-27 20:28:40",
     "target_column": "student_success",
     "task_type": "binary_classification",
     "rows": 1044,

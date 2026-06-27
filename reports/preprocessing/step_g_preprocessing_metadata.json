@@ -3,7 +3,7 @@
     "step_name": "Clean and prepare the dataset for machine learning",
     "project_name": "Student Success AI",
     "dataset_name": "UCI Student Performance Dataset",
-    "created_at": "2026-06-27 19:50:59",
+    "created_at": "2026-06-27 20:28:32",
     "raw_dataset_shape": [
         1044,
         34

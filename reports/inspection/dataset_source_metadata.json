@@ -16,5 +16,5 @@
     "target_variable": "G3",
     "binary_target_rule": "student_success = 1 if G3 >= 10 else 0",
     "leakage_warning": "G3 is the final outcome. G1 and G2 are prior-period grades and may create near-target leakage for strict early-risk prediction.",
-    "created_at": "2026-06-27 19:41:10"
+    "created_at": "2026-06-27 20:28:29"
 }

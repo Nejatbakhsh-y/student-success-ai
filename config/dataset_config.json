@@ -1,0 +1,19 @@
+{
+    "dataset_name": "UCI Student Performance Dataset",
+    "dataset_url": "https://archive.ics.uci.edu/dataset/320/student+performance",
+    "direct_download_url": "https://archive.ics.uci.edu/static/public/320/student+performance.zip",
+    "raw_data_folder": "data/raw",
+    "processed_data_folder": "data/processed",
+    "expected_zip_file": "student_performance.zip",
+    "recommended_raw_file": "student-mat.csv",
+    "alternative_raw_file": "student-por.csv",
+    "separator": ";",
+    "regression_target": "G3",
+    "classification_target": "student_success",
+    "classification_rule": "student_success = 1 if G3 >= 10 else 0",
+    "columns_to_exclude_from_features_for_early_prediction": [
+        "G3"
+    ],
+    "random_state": 42,
+    "test_size": 0.2
+}

@@ -1,0 +1,12 @@
+Step,Task,Status
+A,Create GitHub repository,Completed
+B,"Add README, requirements.txt, .gitignore, and folder structure",Completed
+C,Open Google Colab,Completed
+D,Create Notebook 1: data loading,Completed
+E,Save Notebook 1 to GitHub,Completed
+F,Add Colab badge to README,Completed in Step K
+G,Build EDA notebook,Verify with Step J
+H,Build preprocessing notebook,Verify with Step J
+I,Build model training and comparison workflow,In progress or verify with Step J
+J,Final project completion audit,Completed
+K,Fix remaining completion items and push,Current step

@@ -11,14 +11,12 @@ data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
-# Generated reports
-reports/figures/*
-reports/tables/*
-reports/final/*
+# Large trained model files
+models/*.joblib
+models/*.pkl
 
-!reports/figures/.gitkeep
-!reports/tables/.gitkeep
-!reports/final/.gitkeep
+# Keep model folder structure
+!models/.gitkeep
 
 # System files
 .DS_Store
@@ -28,3 +26,6 @@ Thumbs.db
 .env
 *.key
 *.pem
+
+# Colab and local environment
+.config/

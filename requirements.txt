@@ -5,6 +5,7 @@ matplotlib
 seaborn
 jupyter
 nbformat
+joblib
 shap
 lime
 xgboost

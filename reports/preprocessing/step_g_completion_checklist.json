@@ -1,0 +1,20 @@
+{
+    "step": "G",
+    "step_name": "Clean and prepare the dataset for machine learning",
+    "raw_files_loaded": true,
+    "columns_standardized": true,
+    "missing_values_checked": true,
+    "duplicates_removed": true,
+    "target_created": true,
+    "leakage_columns_removed_from_modeling_files": true,
+    "categorical_variables_encoded": true,
+    "train_test_split_created": true,
+    "strict_clean_file_created": true,
+    "strict_ml_ready_file_created": true,
+    "train_file_created": true,
+    "test_file_created": true,
+    "report_created": true,
+    "metadata_created": true,
+    "completed": true,
+    "completed_at": "2026-06-27 19:50:59"
+}

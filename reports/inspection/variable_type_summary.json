@@ -1,0 +1,48 @@
+{
+    "categorical_columns": [
+        "school",
+        "sex",
+        "address",
+        "famsize",
+        "Pstatus",
+        "Mjob",
+        "Fjob",
+        "reason",
+        "guardian",
+        "schoolsup",
+        "famsup",
+        "paid",
+        "activities",
+        "nursery",
+        "higher",
+        "internet",
+        "romantic"
+    ],
+    "categorical_count": 17,
+    "numerical_columns": [
+        "age",
+        "Medu",
+        "Fedu",
+        "traveltime",
+        "studytime",
+        "failures",
+        "famrel",
+        "freetime",
+        "goout",
+        "Dalc",
+        "Walc",
+        "health",
+        "absences",
+        "G1",
+        "G2",
+        "G3"
+    ],
+    "numerical_count": 16,
+    "target_variable": "G3",
+    "strict_target_creation_column": "G3",
+    "potential_leakage_columns_for_strict_early_prediction": [
+        "G1",
+        "G2",
+        "G3"
+    ]
+}

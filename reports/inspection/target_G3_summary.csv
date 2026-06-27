@@ -1,0 +1,3 @@
+dataset,rows,G3_min,G3_max,G3_mean,G3_median,G3_std,risk_count_G3_below_10,success_count_G3_10_or_above,risk_percent_G3_below_10,success_percent_G3_10_or_above
+Math,395,0,20,10.415,11.0,4.581,130,265,32.91,67.09
+Portuguese,649,0,19,11.906,12.0,3.231,100,549,15.41,84.59

@@ -1,0 +1,20 @@
+{
+    "dataset_name": "UCI Student Performance Dataset",
+    "dataset_id": "320",
+    "source_page": "https://archive.ics.uci.edu/dataset/320/student+performance",
+    "download_url": "https://archive.ics.uci.edu/static/public/320/student%2Bperformance.zip",
+    "download_url_fallback": "https://archive.ics.uci.edu/static/public/320/student+performance.zip",
+    "raw_zip_path": "/content/student-success-ai/data/raw/uci_student_performance.zip",
+    "extract_dir": "/content/student-success-ai/data/raw/uci_student_performance",
+    "canonical_math_file": "/content/student-success-ai/data/raw/student-mat.csv",
+    "canonical_portuguese_file": "/content/student-success-ai/data/raw/student-por.csv",
+    "main_files_expected": [
+        "student-mat.csv",
+        "student-por.csv",
+        "student.txt"
+    ],
+    "target_variable": "G3",
+    "binary_target_rule": "student_success = 1 if G3 >= 10 else 0",
+    "leakage_warning": "G3 is the final outcome. G1 and G2 are prior-period grades and may create near-target leakage for strict early-risk prediction.",
+    "created_at": "2026-06-27 19:41:10"
+}

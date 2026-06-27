@@ -1,0 +1,49 @@
+{
+    "step": "G",
+    "step_name": "Clean and prepare the dataset for machine learning",
+    "project_name": "Student Success AI",
+    "dataset_name": "UCI Student Performance Dataset",
+    "created_at": "2026-06-27 19:50:59",
+    "raw_dataset_shape": [
+        1044,
+        34
+    ],
+    "cleaned_documentation_dataset_shape": [
+        1044,
+        36
+    ],
+    "strict_clean_modeling_dataset_shape": [
+        1044,
+        32
+    ],
+    "encoded_ml_ready_dataset_shape": [
+        1044,
+        59
+    ],
+    "train_shape": [
+        835,
+        59
+    ],
+    "test_shape": [
+        209,
+        59
+    ],
+    "duplicates_removed": 0,
+    "missing_values_after_cleaning": 0,
+    "target_column": "student_success",
+    "target_rule": "student_success = 1 if G3 >= 10 else 0",
+    "leakage_columns_removed": [
+        "g1",
+        "g2",
+        "g3",
+        "final_grade"
+    ],
+    "strict_modeling_files": [
+        "/content/student-success-ai/data/processed/student_ml_clean.csv",
+        "/content/student-success-ai/data/processed/student_ml_ready.csv"
+    ],
+    "random_state": 42,
+    "test_size": 0.2,
+    "stratified_split": true,
+    "completed": true
+}

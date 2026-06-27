@@ -1,0 +1,16 @@
+item,value
+math_raw_rows,395
+portuguese_raw_rows,649
+combined_rows,1044
+combined_columns_before_cleaning,34
+strict_ml_rows,1044
+strict_ml_columns,32
+encoded_ml_ready_rows,1044
+encoded_ml_ready_columns,59
+train_rows,835
+test_rows,209
+target_0_not_successful,230
+target_1_successful,814
+duplicates_removed,0
+missing_values_after_cleaning,0
+removed_leakage_columns,"g1, g2, g3, final_grade"

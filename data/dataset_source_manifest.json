@@ -1,64 +1,28 @@
 {
-    "project_name": "Student Success AI",
-    "project_title": "Student Success AI: A Reproducible Benchmark for Early Academic Risk Prediction Using Explainable Machine Learning, with Public Educational Data",
-    "step": "E",
-    "step_name": "Choose and document the public educational dataset",
-    "selected_dataset_name": "UCI Student Performance Dataset",
-    "dataset_repository": "UCI Machine Learning Repository",
-    "dataset_domain": "Educational data mining and student academic performance prediction",
-    "dataset_public": true,
-    "dataset_license_note": "The dataset is publicly distributed through the UCI Machine Learning Repository. Users should cite the original data source and respect the repository terms.",
-    "primary_dataset_url": "https://archive.ics.uci.edu/dataset/320/student+performance",
-    "direct_zip_url": "https://archive.ics.uci.edu/static/public/320/student+performance.zip",
-    "recommended_first_version": true,
-    "stronger_future_research_option": "PISA 2022 public-use dataset",
-    "reason_for_selection": [
-        "The dataset is public and widely used in educational data mining.",
-        "The dataset is small enough for fast Google Colab experimentation.",
-        "The dataset supports classification and regression tasks.",
-        "The dataset contains academic, demographic, social, family, school, and behavioral predictors.",
-        "The dataset is suitable for model comparison and explainable machine learning.",
-        "The dataset is easier to manage for the first GitHub version than PISA 2022."
+    "dataset_name": "UCI Student Performance Dataset",
+    "project": "Student Success AI",
+    "source_status": "downloaded from UCI",
+    "download_url_used": "https://archive.ics.uci.edu/ml/machine-learning-databases/00320/student.zip",
+    "raw_files": [
+        "data/raw/student-mat.csv",
+        "data/raw/student-por.csv"
     ],
-    "available_subject_files_expected": [
-        "student-mat.csv",
-        "student-por.csv",
-        "student.txt",
-        "student-merge.R"
+    "processed_file": "data/processed/student_ml_clean.csv",
+    "encoded_processed_file": "data/processed/student_ml_ready.csv",
+    "target_column": "student_success",
+    "target_definition": "student_success = 1 if G3 >= 10, else 0",
+    "leakage_columns_removed": [
+        "g1",
+        "g2",
+        "g3",
+        "final_grade"
     ],
-    "recommended_file_for_first_model": "student-mat.csv",
-    "alternative_file": "student-por.csv",
-    "target_options": {
-        "regression_target": "G3 final grade",
-        "classification_target": "student_success, defined as 1 if G3 >= 10 and 0 otherwise",
-        "early_risk_prediction_note": "For a stricter early-risk prediction setting, final grade G3 should be used only to create the target and then removed from the feature set before modeling."
+    "strict_ml_shape": {
+        "rows": 1044,
+        "columns": 32
     },
-    "machine_learning_task_types": [
-        "Binary classification: predict pass/fail or success/risk status",
-        "Regression: predict final grade",
-        "Model comparison: compare baseline and advanced machine learning algorithms",
-        "Explainability: interpret important predictors using feature importance and XAI methods"
-    ],
-    "planned_algorithms": [
-        "Dummy baseline",
-        "Logistic regression",
-        "Decision tree",
-        "Random forest",
-        "Gradient boosting",
-        "Support vector machine",
-        "K-nearest neighbors",
-        "Neural network"
-    ],
-    "expected_project_outputs": [
-        "Dataset inspection report",
-        "Cleaned machine learning dataset",
-        "EDA report",
-        "Baseline model results",
-        "Model comparison report",
-        "Explainability report",
-        "Model card",
-        "Data card",
-        "Final project report"
-    ],
-    "created_at": "2026-06-27 20:28:27"
+    "encoded_ml_shape": {
+        "rows": 1044,
+        "columns": 59
+    }
 }

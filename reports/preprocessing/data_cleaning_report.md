@@ -6,11 +6,19 @@ Student Success AI: A Reproducible Benchmark for Early Academic Risk Prediction 
 
 ## Date Created
 
-2026-06-27 20:28:32
+2026-06-27 22:57:41
 
 ## Dataset
 
 UCI Student Performance Dataset
+
+## Source Status
+
+downloaded from UCI
+
+## Download URL Used
+
+https://archive.ics.uci.edu/ml/machine-learning-databases/00320/student.zip
 
 ## Purpose of This Step
 
@@ -92,12 +100,14 @@ This supports a strict early academic-risk prediction setup.
 | `data/processed/student_success_ml_ready.csv` | Additional encoded ML-ready dataset |
 | `data/processed/student_success_train.csv` | Training dataset |
 | `data/processed/student_success_test.csv` | Testing dataset |
+| `data/dataset_source_manifest.json` | Dataset source and processing manifest |
+| `reports/tables/step_g_dataset_summary.csv` | Step G dataset summary table |
 | `reports/preprocessing/data_cleaning_report.md` | Cleaning and preparation report |
 | `reports/preprocessing/step_g_preprocessing_metadata.json` | Machine-readable preprocessing metadata |
 
 ## Important Leakage Control
 
-The file `student_success_clean_documentation_only.csv` is not intended for modeling because it contains the original grade columns. The files `student_ml_clean.csv` and `student_ml_ready.csv` should be used for Step H modeling.
+The file `student_success_clean_documentation_only.csv` is not intended for modeling because it contains the original grade columns. The files `student_ml_clean.csv` and `student_ml_ready.csv` should be used for Step H, Step I, and later modeling.
 
 ## Status
 

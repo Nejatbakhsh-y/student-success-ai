@@ -3,7 +3,13 @@
     "step_name": "Clean and prepare the dataset for machine learning",
     "project_name": "Student Success AI",
     "dataset_name": "UCI Student Performance Dataset",
-    "created_at": "2026-06-27 20:28:32",
+    "source_status": "downloaded from UCI",
+    "download_url_used": "https://archive.ics.uci.edu/ml/machine-learning-databases/00320/student.zip",
+    "created_at": "2026-06-27 22:57:41",
+    "raw_files": [
+        "data/raw/student-mat.csv",
+        "data/raw/student-por.csv"
+    ],
     "raw_dataset_shape": [
         1044,
         34
@@ -39,8 +45,8 @@
         "final_grade"
     ],
     "strict_modeling_files": [
-        "/content/student-success-ai/data/processed/student_ml_clean.csv",
-        "/content/student-success-ai/data/processed/student_ml_ready.csv"
+        "data/processed/student_ml_clean.csv",
+        "data/processed/student_ml_ready.csv"
     ],
     "random_state": 42,
     "test_size": 0.2,
